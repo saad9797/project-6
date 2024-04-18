@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #b5c6e0;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-prt-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+#menu_button,#icon_button {
+    font-size: 14px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 7px 12px;
+    border-radius: 50px;
+}
+#menu_button:hover,#icon_button:hover{
+    background-color: black;
+    color: white;
+}
+#nav-prt-2 h1{
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav-prt-3 button{
+    padding: 7px 12px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: white;
+}
+#nav-prt-3 button:hover{
+    background-color: black;
+    color:white;
+    
+}
+#nav-prt-3 #btn{
+    background-color: orangered;
+    color: white;
+    border: 1.5px solid white;
+}
+
+#nav-prt-3 #btn:hover{
+    background-color: white;
+    color: orangered;
+}
+#main>h1{
+    width: 100%;
+    border: 2px solid black;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* centering */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main>img{
+    position: absolute;
+    /* give only height if you dont want to to use object fit(usefull in some cases) */
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    /* object-position: top; not needed in this */
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main #img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#main #img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#main #img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btn-left{
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+    font-weight: 600;
+    font-size: 15px;
+}
+.icon{
+    position:absolute;
+    right: 5%;
+    bottom: 10%;
+    font-size: 20px;
+    
+}
+.icon h3{
+    font-weight: 400;
+    font-size: 15px;
+}
